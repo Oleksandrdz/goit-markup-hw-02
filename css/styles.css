@@ -1,18 +1,28 @@
 :root {
   --primary-white-color: #ffffff;
-  --color: #2e2f42;
+  --primary-black-color: #4d5ae5;
 }
 .body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: var(--primary-white-color);
 }
+.navi-text {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-black-color);
+}
+.link {
+}
 .head-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
@@ -31,11 +41,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
   line-height: 1.11;
+  text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  text-align: center;
 
   color: #2e2f42;
 }
@@ -55,15 +64,14 @@
   text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
   color: #4d5ae5;
 }
 
-.nav-text .link {
+.nav-link .link {
   text-decoration: none;
 }
 
-.nav-text {
+.nav-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -79,6 +87,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 .text-button {
@@ -91,7 +100,6 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
-  box-sizing: border-box;
   color: #4d5ae5;
   background: #f4f4fd;
   cursor: pointer;
