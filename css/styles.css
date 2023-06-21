@@ -1,15 +1,25 @@
+:root {
+  --primary-white-color: #ffffff;
+  --color: #2e2f42;
+}
 .body {
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: var(--primary-white-color);
 }
 .head-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
 }
 .header-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -17,41 +27,54 @@
   color: #434455;
 }
 .main-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+
   color: #2e2f42;
 }
 .header-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #2e2f42;
+  letter-spacing: 0.02em;
 }
 
 .logo-link {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
-  color: #2e2f42;
+  color: #4d5ae5;
+}
+
+.nav-text .link {
+  text-decoration: none;
 }
 
 .nav-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  color: #2e2f42;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color);
 }
+
 .address {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -65,7 +88,7 @@
   cursor: pointer;
 }
 .button-list {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   box-sizing: border-box;
@@ -75,7 +98,7 @@
 }
 
 .post-h2 {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -83,7 +106,7 @@
   color: #2e2f42;
 }
 .post-p {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -91,7 +114,7 @@
   color: #434455;
 }
 .footer-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
