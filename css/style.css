@@ -1,0 +1,99 @@
+.body {
+  font-family: "Roboto", "Raleway", sans-serif;
+}
+.head-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+}
+.header-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.main-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+}
+.header-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+
+.logo-link {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+}
+
+.nav-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.text-button {
+  flex-direction: row;
+  background: #404bbf;
+  color: #ffffff;
+  cursor: pointer;
+}
+.button-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  box-sizing: border-box;
+  color: #4d5ae5;
+  background: #f4f4fd;
+  cursor: pointer;
+}
+
+.post-h2 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.post-p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
