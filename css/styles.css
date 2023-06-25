@@ -37,7 +37,6 @@ button {
 }
 
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: var(--backgr-color);
   color: var(--body-color);
